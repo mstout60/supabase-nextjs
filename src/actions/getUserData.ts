@@ -1,6 +1,5 @@
 import { User } from '@/types/app';
 import { supabaseServerClient } from '@/utils/supabaseServer';
-import { error } from 'console';
 
 
 const getUserData = async (): Promise<User | null> => {
